@@ -1,0 +1,391 @@
+body{
+    height: 3500px;
+  
+}
+#menu_conteneur {
+    width: auto;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.divmenu {
+    display: flex;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 3px;
+   flex-direction: column;
+   text-transform: uppercase;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: bold;
+   justify-content: end;
+border-left: rgba(0, 0, 0, 0.089) solid 1px;
+
+
+}
+
+.divmenu:hover{
+    background-color:rgb(228, 226, 226);
+}
+
+.divtel{
+    
+        display: flex;
+        font-family: 'Montserrat',sans-serif;
+       align-items: center;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-bottom: 3px;
+       flex-direction: column;
+       text-transform: uppercase;
+       font-weight: bold;
+       justify-content: end;
+       color: white;
+        background-color: cadetblue;
+    
+}
+.divtel:hover{
+    background-color: lightseagreen;
+}
+.divdocto{
+    
+        display: flex;
+        font-family: 'Montserrat',sans-serif;
+       align-items: center;
+       padding-left: 20px;
+       padding-right: 20px;
+    background-color: rgb(6, 83, 155);
+    padding-bottom: 3px;
+       flex-direction: column;
+       text-transform: uppercase;
+       font-weight: bold;
+       justify-content: end;
+       color: white;
+    
+}
+.divdocto:hover{
+    background-color: rgb(41, 119, 163);
+}
+
+#carouselExampleControls {
+    display: flex;
+    position: relative;
+    justify-content: center;
+z-index: 1;
+ 
+    
+}
+
+#text_carou {
+    position: absolute;
+    width: 60%;
+    margin-left: 380px;
+    margin-right: 380px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 100px;
+    z-index: 1;
+   
+
+}
+
+#divaccueil{
+  
+    width: 65%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    margin-top: -180px;
+    position: relative;
+    background-color: white;
+   
+ 
+}
+
+.div_acc{
+ 
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 15px;
+  font-family: 'Roboto',sans-serif;
+  color: rgba(0, 0, 0, 0.664);
+    
+}
+
+h2{
+    font-family: 'Montserrat',sans-serif;
+    color: rgb(19, 97, 157);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.hr1{
+    color: rgb(26, 224, 208);
+    border-radius: 3px;
+
+}
+
+.hr2{
+    color: rgb(26, 224, 208);
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#image2{
+    margin-top: 30px;
+}
+
+#image3{
+    margin-top: 50px;
+}
+
+#avantages {
+    width: 65%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#avantages_title{
+    display: flex;
+    justify-content: center;
+
+
+   
+}
+
+.card_av {
+    border: solid rgb(25, 165, 162) 2px;
+    width: 31%;
+    display: flex;
+    font-size: 15px;
+    padding-right: 15px;
+
+  
+}
+
+.card_av:hover{
+    box-shadow:  6px 6px 6px rgb(83, 83, 83);
+    border-width: 4px;
+}
+
+.image_av{
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.titre_av{
+    color: rgb(47, 172, 177);
+    font-weight: bold;
+    font-size: 20px;
+ 
+}
+
+.for_slick_slider{
+    display: flex;
+ 
+ 
+}
+.for_slick_slider .items{
+
+    width: 350px;
+    height: 500px;
+    padding: 50px;
+    color: white;
+}
+
+.for_slick_slider .items img{
+    width: 300px;
+    height: 450px;
+
+}
+
+#fondslick{
+    margin-top: 150px;
+    height: 840px;
+    background-image: url(images/fondslick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#actus{
+ 
+    width: 65%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_actu {
+    width: 30%;
+    height: auto;
+    justify-content: space-between;
+  
+}
+
+.date{
+    font-family: 'Roboto',sans-serif;
+}
+
+.titre_actu{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.bouton_actu{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgb(55, 181, 185);
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bouton_actu:hover{
+    background-color: rgb(55, 181, 185);
+    color: white;
+}
+
+.bouton_carou{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.bouton_carou:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#conteneur_foot{
+    margin-top: 200px;
+    height: 400px;
+    width: auto;
+    background-image: url(images/footerback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+}
+h3{
+    color:rgb(47, 172, 177) ;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.a_foot{
+    color: white;
+    font-weight: bold;
+}
+.a_foot:hover{
+    color:rgb(47, 172, 177);
+}
+
+.footer_div{
+  
+    justify-content:center;
+    margin: auto;
+    height: 250px;
+   
+}
+
+.p_foot{
+    color: white;
+    font-weight: bold;
+}
+
+#span_foot{
+    font-weight: normal;
+    
+}
+
+#conteneur_3{
+    width:75%;
+    margin: auto;
+   
+    display: flex;
+}
+#gcom{
+background-color: rgb(5, 13, 14);
+text-align: center;
+height: 75px;
+}
+
+.sous_presentation{
+display: none;
+position: absolute;
+left: 100px;
+right: 70px;
+width: 63%;
+margin: auto;
+z-index: 5;
+background-color: rgb(218, 218, 218);
+
+
+}
+
+.categorie{
+    width: 100%;
+   
+    padding: 10px;
+    font-weight: bold;
+text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.hr0{
+    margin-top: 1px;
+}
+
+.a_sousmenu{
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    text-transform: capitalize;
+    font-size:90%;
+  
+}
+.a_sousmenu:hover {
+color: rgb(47, 172, 177);
+}
+.ul_sousmenu{
+    list-style-type: none;
+  margin-left: -30px;
+}
+
+li{
+    margin-top: 15px;
+}
+
+#ligne2{
+    text-align: center;
+}
+
